@@ -2,7 +2,11 @@ I'm a text document created on a local repo
 
 Now i've been edited with more crap :(
 
+
 Remote edit
 Now the remote repo has edited me!
 
 Deleted all the crap local
+
+GIT is fun
+
