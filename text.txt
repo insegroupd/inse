@@ -4,4 +4,8 @@ Now i've been edited with more crap :(
 
 Now the remote repo has edited me!
 
+<<<<<<< HEAD
 Local edit
+=======
+Remote edit
+>>>>>>> 4d650a8d2b52ec280b7313732231e5cb53262ef3
