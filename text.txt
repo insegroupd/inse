@@ -1,16 +1,8 @@
 I'm a text document created on a local repo
 
 Now i've been edited with more crap :(
-<<<<<<< HEAD
 
-Now the remote repo has edited me!
-
-<<<<<<< HEAD
-Local edit
-=======
-Remote edit
->>>>>>> 4d650a8d2b52ec280b7313732231e5cb53262ef3
-=======
 Remote edit
 Now the remote repo has edited me!
->>>>>>> 5b434dc1c69a30c92cf9ea4e3e335da50ae6f714
+
+Deleted all the crap local
