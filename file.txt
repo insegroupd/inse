@@ -5,3 +5,14 @@ https://github.com/insegroupd/inse.git
 To add origin do the following
 
 $git remote add origin https://github.com/insegroupd/inse.git
+
+once file/s have been changed to 
+
+$ git add * (for everytihng from the current directory including all sub directories
+
+	  <file name> for a specific file name
+	  <file path> for a directory
+
+$ git commit -m 'changed file' adds a commit with the text in hte string to your local 				repository
+
+$ git push origin
