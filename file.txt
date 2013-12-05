@@ -1,18 +1,37 @@
-Hello World
 
-https://github.com/insegroupd/inse.git
+to create your local repository
 
-To add origin do the following
+use the linux commands cd and mkdir to create a folder where you want your repository to be
 
-$git remote add origin https://github.com/insegroupd/inse.git
+once you are in your folder e.g. mine is cd N:/test do the following command
 
-once file/s have been changed to 
+$ git init
+
+This will set up your local repository.
+
+As I have already set up the git hub repository you will need to pull down the information stored there. YOU WILL NEED TO DO THIS EVERYTIME BEFORE YOU START WORK!!
+
+To do this you need to create a variable called 'origin' to point to our github repository
+
+To add origin do the following command
+
+$ git remote add origin https://github.com/insegroupd/inse.git
+
+Then to pull down the data do
+
+$ git pull origin master
+
+This will update your local repository with all the files from the git hub repository
+
+Once file/s have been updated/edited/changed you will need to upload them back to github by doing the following 
 
 $ git add * (for everytihng from the current directory including all sub directories
 
 	  <file name> for a specific file name
 	  <file path> for a directory
 
-$ git commit -m 'changed file' adds a commit with the text in hte string to your local 				repository
+$ git commit -m 'changed file' adds a commit with the text in the string as a comment to 		your local repository 				
 
-$ git push origin
+$ git push origin master
+	it will ask for the username and password
+	the files will now be pushed to the github repository
