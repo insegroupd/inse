@@ -1,0 +1,7 @@
+Hello World
+
+https://github.com/insegroupd/inse.git
+
+To add origin do the following
+
+$git remote add origin https://github.com/insegroupd/inse.git
